@@ -92,7 +92,6 @@
 	width: 1140px;
 	position: relative;
 	height: 790px;
-/*	margin-top: 250px;*/
 	background-color: rgb(255, 199, 44);
 	display: flex;
 	flex-flow: column;
@@ -109,6 +108,7 @@
 	top: 32px;
 	width: 30px;
 	height: 30px;
+	cursor: pointer;
 }
 .free-consultation__close:before, .free-consultation__close:after {
 	position: absolute;
@@ -119,10 +119,10 @@
 	background-color: rgb(255, 255, 255);
 }
 .free-consultation__close:before {
-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .free-consultation__close:after {
-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 .free-consultation__title {
 	font-size: 48px;
