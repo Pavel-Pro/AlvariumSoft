@@ -111,12 +111,12 @@
 	height: 30px;
 }
 .free-consultation__close:before, .free-consultation__close:after {
-position: absolute;
-left: 15px;
-content: ' ';
-height: 33px;
-width: 2px;
-background-color: rgb(255, 255, 255);
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: rgb(255, 255, 255);
 }
 .free-consultation__close:before {
 transform: rotate(45deg);
@@ -200,7 +200,7 @@ transform: rotate(-45deg);
 }
 .who-we-are__aside {
 	height: 485px;
-	width: 690px;
+	width: 661px;
 	background-color: rgb(255, 199, 44);
 	position: absolute;
 	top: 390px;
