@@ -76,6 +76,34 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.consultation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: none;
+}
+.consultation__wrapper {
+  width: 100%;
+  height: 100%;
+}
+.consultation__window {
+  position: fixed;
+  width: 1000px;
+  height: 790px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.24);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: auto;
+}
 .free-consultation {
 	width: 100%;
 	height: 100%;
@@ -128,7 +156,7 @@
 	font-size: 48px;
 	color: rgb(5, 34, 70);
 	font-family: Montserrat;
-	width: 51%;
+	width: 58%;
 	text-align: center;
 	padding-top: 30px;
 	z-index: 20;
@@ -151,7 +179,7 @@
 	color: rgba(244, 248, 249, 0.21);
 	font-family: Montserrat;
 	font-weight: 700;
-	font-size: 112px;
+	font-size: 100px;
 	line-height: 137px;
 }
 .consultation-form__input {
@@ -577,32 +605,4 @@
 }
 .projects__item:hover .projects__item-hidden {
 	display: flex;
-}
-.consultation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1000px;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-  display: none;
-}
-.consultation__wrapper {
-  width: 100%;
-  height: 100%;
-}
-.consultation__window {
-  position: fixed;
-  width: 1000px;
-  height: 790px;
-  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.24);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  overflow: auto;
 }
