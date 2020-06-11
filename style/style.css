@@ -92,7 +92,7 @@
 	width: 1140px;
 	position: relative;
 	height: 790px;
-	margin-top: 250px;
+/*	margin-top: 250px;*/
 	background-color: rgb(255, 199, 44);
 	display: flex;
 	flex-flow: column;
@@ -104,11 +104,11 @@
     background-blend-mode: overlay;
 }
 .free-consultation__close {
-position: absolute;
-right: 32px;
-top: 32px;
-width: 30px;
-height: 30px;
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	width: 30px;
+	height: 30px;
 }
 .free-consultation__close:before, .free-consultation__close:after {
 position: absolute;

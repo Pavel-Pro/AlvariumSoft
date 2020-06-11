@@ -106,7 +106,7 @@
 }
 .slick-next:before
 {
-    content: '>';    
+    content: '';    
     color: rgb(255, 199, 44, 0.5);
     font-size: 40px;
     font-weight: bold;
