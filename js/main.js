@@ -10,12 +10,12 @@ $(document).ready(function() {
 		slidesToShow: 2
 	});
 	$('.header__button').click(function() {
-		$('.feedback').fadeToggle(500);
+		$('.consultation').fadeToggle(500);
 		$('body').css('overflow', 'hidden');
 	});
 
-	$('.free-consultation__close, .feedback__wrapper').click(function() {
-    	$('.resp, .feedback').fadeOut(0);
+	$('.free-consultation__close, .consultation__wrapper').click(function() {
+    	$('.resp, .consultation').fadeOut(0);
 		$('body').css('overflow', 'auto');
 	});
 });
